@@ -1,0 +1,65 @@
+$  cal 06 1998
+     June 1998        
+Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6  
+ 7  8  9 10 11 12 13  
+14 15 16 17 18 19 20  
+21 22 23 24 25 26 27  
+28 29 30          
+
+
+ls
+ 2020-08-05-151246   2020-08-05-154136   2020-08-05-161346   2020-08-05-161838.term   2020-08-05-164627.term  'DAY 1.term'  'Welcome to CoCalc.term'   aa   myfile
+~$ cat> myfile
+Harshika Srivastava
+^C #(control+c)
+~$ ls -la
+total 26
+drwxr-xr-x 6 user user   25 Aug  5 11:22  .
+drwxr-xr-x 1 root root 4096 Aug  4 18:26  ..
+-rw-r--r-- 1 user user   48 Aug  5 11:21  .2020-08-05-164627.term-0.term
+-rw-r--r-- 1 user user  308 Aug  5 11:28 '.DAY 1.term-0.term'
+-rw-r--r-- 1 user user 6314 Aug  5 11:17 '.Welcome to CoCalc.term-0.term'
+lrwxrwxrwx 1 user user   18 Aug  5 09:23  .bash_profile -> /home/user/.bashrc
+-rw-r--r-- 1 user user 2355 Aug  5 09:23  .bashrc
+drwx------ 3 user user    3 Aug  5 09:23  .config
+-rw-r--r-- 1 user user   47 Aug  5 09:23  .gitconfig
+-rw-r--r-- 1 user user  918 Aug  5 09:23  .gitexcludes
+-rw-r--r-- 1 user user    0 Aug  5 09:28  .hash
+-rw-r--r-- 1 user user 8192 Aug  5 09:23  .jupyter-blobs-v0.db
+drwxr-xr-x 2 user user    2 Aug  5 09:23  .sage
+lrwxrwxrwx 1 user user   12 Aug  5 11:16  .smc -> /tmp/.cocalc
+dr-xr-xr-x 2 user user    2 Aug  5 11:17  .snapshots
+drwxr-xr-x 2 user user    3 Aug  5 11:16  .ssh
+-rw-r--r-- 1 user user    0 Aug  5 09:42  2020-08-05-151246
+-rw-r--r-- 1 user user    0 Aug  5 10:11  2020-08-05-154136
+-rw-r--r-- 1 user user    0 Aug  5 10:43  2020-08-05-161346
+-rw-r--r-- 1 user user    0 Aug  5 10:48  2020-08-05-161838.term
+-rw-r--r-- 1 user user    0 Aug  5 11:16  2020-08-05-164627.term
+-rw-r--r-- 1 user user    0 Aug  5 11:27 'DAY 1.term'
+-rw-r--r-- 1 user user    0 Aug  5 11:27 'Welcome to CoCalc.term'
+-rw-r--r-- 1 user user    8 Aug  5 10:49  aa
+-rw-r--r-- 1 user user   37 Aug  5 11:27  myfile
+~$ mkdir mca
+~$ cd mca
+~/mca$ pwd
+/home/user/mca
+~/mca$ ls -1
+~/mca$ ls -l
+total 0
+~/mca$ cd ..
+~$ pwd
+/home/user
+~$ rmdir mca
+~$ ls -l
+total 6
+-rw-r--r-- 1 user user  0 Aug  5 09:42  2020-08-05-151246
+-rw-r--r-- 1 user user  0 Aug  5 10:11  2020-08-05-154136
+-rw-r--r-- 1 user user  0 Aug  5 10:43  2020-08-05-161346
+-rw-r--r-- 1 user user  0 Aug  5 10:48  2020-08-05-161838.term
+-rw-r--r-- 1 user user  0 Aug  5 11:16  2020-08-05-164627.term
+-rw-r--r-- 1 user user  0 Aug  5 11:27 'DAY 1.term'
+-rw-r--r-- 1 user user  0 Aug  5 11:27 'Welcome to CoCalc.term'
+-rw-r--r-- 1 user user  8 Aug  5 10:49  aa
+-rw-r--r-- 1 user user 37 Aug  5 11:27  myfile
+~$ 
