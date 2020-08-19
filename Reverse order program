@@ -1,0 +1,30 @@
+echo "enter  a number "
+read h
+while [ $h -ge 0 ]
+do
+echo $h
+h=`expr $h - 1`
+done
+~
+
+OUTPUT
+~$ vi reverse
+~$ sh reverse
+enter  a number 
+15
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
