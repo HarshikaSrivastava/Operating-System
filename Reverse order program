@@ -5,7 +5,6 @@ do
 echo $h
 h=`expr $h - 1`
 done
-~
 
 OUTPUT
 ~$ vi reverse
