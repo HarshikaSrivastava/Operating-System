@@ -1,3 +1,5 @@
+
+
 echo "Enter a number"
 read num
 i=1
@@ -11,5 +13,6 @@ echo "Factorial of number is=" $factorial
 ~                                                                                                                                                                             
 ~
 
-OUTPUT
+OUTPUT:
+
 3628880
